@@ -19,13 +19,11 @@ module.exports = function(grunt) {
     var done = this.async();
 
     var options = this.options({
-      json: 'component.json',
       targetDir: './components',
       cleanup: false
     });
 
     bower.config.directory = options.targetDir;
-    bower.config.json = options.json;
 
     if (options.cleanup) {
       rimraf(options.targetDir);
