@@ -1,0 +1,31 @@
+{
+  "name": "grunt-bower-install",
+  "description": "Install Bower packages.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/frodeanonsen/grunt-bower-install",
+  "author": {
+    "name": "Frode Anonsen",
+    "email": "frode@anonsen.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frodeanonsen/grunt-bower-install.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frodeanonsen/grunt-bower-install/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/frodeanonsen/grunt-bower-install/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "bower": "~0.6.8",
+    "rimraf": "~2.1.2",
+    "colors": "~0.6.0-1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
