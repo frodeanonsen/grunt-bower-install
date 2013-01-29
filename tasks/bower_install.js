@@ -35,10 +35,8 @@ module.exports = function(grunt) {
         grunt.log.writeln(data);
       })
       .on('end', function() {
-        var success = function() {
-          grunt.log.writeln('Bower packages installed successfully.');
-          done();
-        };
+        grunt.log.writeln('Bower packages installed successfully.');
+        done();
       })
       .on('error', function(error) {
         grunt.fail.fatal(error);
